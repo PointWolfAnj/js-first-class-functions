@@ -51,7 +51,7 @@ describe("Arrays", () => {
     expect(f.sumNumbers()).toEqual(1111)
   })
 
-  fit("findLargest", () => {
+  it("findLargest", () => {
     expect(f.findLargest()).toEqual(9121)
   })
 })
